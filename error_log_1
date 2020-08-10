@@ -1,0 +1,90 @@
+[01-Sep-2018 09:44:49 UTC] PHP Notice:  Undefined variable: show_error in /home/activeap/public_html/mail_error.php on line 4
+[01-Sep-2018 09:45:40 UTC] PHP Notice:  Undefined property: stdClass::$thumbnail_url in /home/activeap/public_html/gallery3.php on line 240
+[01-Sep-2018 09:45:40 UTC] PHP Notice:  Undefined property: stdClass::$thumbnail_url in /home/activeap/public_html/gallery3.php on line 240
+[01-Sep-2018 09:45:40 UTC] PHP Notice:  Undefined property: stdClass::$thumbnail_url in /home/activeap/public_html/gallery3.php on line 240
+[01-Sep-2018 09:45:40 UTC] PHP Notice:  Undefined property: stdClass::$thumbnail_url in /home/activeap/public_html/gallery3.php on line 240
+[01-Sep-2018 09:45:40 UTC] PHP Notice:  Undefined property: stdClass::$thumbnail_url in /home/activeap/public_html/gallery3.php on line 240
+[01-Sep-2018 09:45:40 UTC] PHP Notice:  Undefined property: stdClass::$thumbnail_url in /home/activeap/public_html/gallery3.php on line 240
+[01-Sep-2018 09:45:50 UTC] PHP Notice:  Undefined variable: show_error in /home/activeap/public_html/mail_error.php on line 4
+[01-Sep-2018 09:48:31 UTC] PHP Notice:  Undefined variable: page_title in /home/activeap/public_html/gallery3.php on line 198
+[01-Sep-2018 09:48:31 UTC] PHP Notice:  Undefined variable: page_content_text in /home/activeap/public_html/gallery3.php on line 199
+[01-Sep-2018 09:48:31 UTC] PHP Notice:  Undefined variable: datajson in /home/activeap/public_html/gallery3.php on line 233
+[01-Sep-2018 09:48:31 UTC] PHP Notice:  Trying to get property of non-object in /home/activeap/public_html/gallery3.php on line 233
+[01-Sep-2018 09:48:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/activeap/public_html/gallery3.php on line 233
+[01-Sep-2018 09:48:31 UTC] PHP Notice:  Undefined variable: datajson in /home/activeap/public_html/gallery3.php on line 365
+[01-Sep-2018 09:48:31 UTC] PHP Notice:  Trying to get property of non-object in /home/activeap/public_html/gallery3.php on line 365
+[01-Sep-2018 09:56:49 UTC] PHP Notice:  Undefined variable: show_error in /home/activeap/public_html/mail_error.php on line 4
+[01-Sep-2018 10:14:27 UTC] PHP Notice:  Undefined variable: page_content_url in /home/activeap/public_html/gallery1.php on line 145
+[01-Sep-2018 10:14:27 UTC] PHP Notice:  Undefined variable: page_title in /home/activeap/public_html/gallery1.php on line 198
+[01-Sep-2018 10:14:27 UTC] PHP Notice:  Undefined variable: page_content_text in /home/activeap/public_html/gallery1.php on line 199
+[01-Sep-2018 10:14:27 UTC] PHP Notice:  Undefined variable: datajson in /home/activeap/public_html/gallery1.php on line 234
+[01-Sep-2018 10:14:27 UTC] PHP Notice:  Trying to get property of non-object in /home/activeap/public_html/gallery1.php on line 234
+[01-Sep-2018 10:14:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/activeap/public_html/gallery1.php on line 234
+[01-Sep-2018 10:18:52 UTC] PHP Notice:  Undefined variable: page_title in /home/activeap/public_html/gallery3.php on line 198
+[01-Sep-2018 10:18:53 UTC] PHP Notice:  Undefined variable: page_content_text in /home/activeap/public_html/gallery3.php on line 199
+[01-Sep-2018 10:18:53 UTC] PHP Notice:  Undefined variable: datajson in /home/activeap/public_html/gallery3.php on line 233
+[01-Sep-2018 10:18:53 UTC] PHP Notice:  Trying to get property of non-object in /home/activeap/public_html/gallery3.php on line 233
+[01-Sep-2018 10:18:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/activeap/public_html/gallery3.php on line 233
+[01-Sep-2018 10:18:53 UTC] PHP Notice:  Undefined variable: datajson in /home/activeap/public_html/gallery3.php on line 365
+[01-Sep-2018 10:18:53 UTC] PHP Notice:  Trying to get property of non-object in /home/activeap/public_html/gallery3.php on line 365
+[01-Sep-2018 10:25:10 UTC] PHP Notice:  Undefined variable: page_title in /home/activeap/public_html/gallery3.php on line 198
+[01-Sep-2018 10:25:10 UTC] PHP Notice:  Undefined variable: page_content_text in /home/activeap/public_html/gallery3.php on line 199
+[01-Sep-2018 10:25:10 UTC] PHP Notice:  Undefined variable: datajson in /home/activeap/public_html/gallery3.php on line 233
+[01-Sep-2018 10:25:10 UTC] PHP Notice:  Trying to get property of non-object in /home/activeap/public_html/gallery3.php on line 233
+[01-Sep-2018 10:25:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/activeap/public_html/gallery3.php on line 233
+[01-Sep-2018 10:25:10 UTC] PHP Notice:  Undefined variable: datajson in /home/activeap/public_html/gallery3.php on line 365
+[01-Sep-2018 10:25:10 UTC] PHP Notice:  Trying to get property of non-object in /home/activeap/public_html/gallery3.php on line 365
+[01-Sep-2018 10:29:53 UTC] PHP Notice:  Undefined property: stdClass::$card in /home/activeap/public_html/ajax.php on line 146
+[01-Sep-2018 10:29:53 UTC] PHP Notice:  Undefined property: stdClass::$card in /home/activeap/public_html/ajax.php on line 146
+[01-Sep-2018 10:29:53 UTC] PHP Notice:  Undefined property: stdClass::$content_type in /home/activeap/public_html/ajax.php on line 146
+[01-Sep-2018 10:29:53 UTC] PHP Notice:  Undefined property: stdClass::$card in /home/activeap/public_html/ajax.php on line 146
+[01-Sep-2018 10:31:33 UTC] PHP Notice:  Undefined variable: show_error in /home/activeap/public_html/mail_error.php on line 4
+[01-Sep-2018 10:33:07 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/activeap/public_html/i_menu_items.php:101) in /home/activeap/public_html/i_share_memory.php on line 6
+[01-Sep-2018 10:33:07 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/activeap/public_html/i_menu_items.php:101) in /home/activeap/public_html/i_share_memory.php on line 6
+[01-Sep-2018 10:42:39 UTC] PHP Notice:  Undefined variable: page_content_url in /home/activeap/public_html/gallery1.php on line 145
+[01-Sep-2018 10:42:39 UTC] PHP Notice:  Undefined variable: page_title in /home/activeap/public_html/gallery1.php on line 198
+[01-Sep-2018 10:42:39 UTC] PHP Notice:  Undefined variable: page_content_text in /home/activeap/public_html/gallery1.php on line 199
+[01-Sep-2018 10:42:39 UTC] PHP Notice:  Undefined variable: datajson in /home/activeap/public_html/gallery1.php on line 234
+[01-Sep-2018 10:42:39 UTC] PHP Notice:  Trying to get property of non-object in /home/activeap/public_html/gallery1.php on line 234
+[01-Sep-2018 10:42:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/activeap/public_html/gallery1.php on line 234
+[01-Sep-2018 10:44:38 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/activeap/public_html/i_menu_items.php:101) in /home/activeap/public_html/i_share_memory.php on line 6
+[01-Sep-2018 10:46:15 UTC] PHP Notice:  Undefined variable: page_title in /home/activeap/public_html/gallery3.php on line 198
+[01-Sep-2018 10:46:15 UTC] PHP Notice:  Undefined variable: page_content_text in /home/activeap/public_html/gallery3.php on line 199
+[01-Sep-2018 10:46:15 UTC] PHP Notice:  Undefined variable: datajson in /home/activeap/public_html/gallery3.php on line 233
+[01-Sep-2018 10:46:15 UTC] PHP Notice:  Trying to get property of non-object in /home/activeap/public_html/gallery3.php on line 233
+[01-Sep-2018 10:46:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/activeap/public_html/gallery3.php on line 233
+[01-Sep-2018 10:46:15 UTC] PHP Notice:  Undefined variable: datajson in /home/activeap/public_html/gallery3.php on line 365
+[01-Sep-2018 10:46:15 UTC] PHP Notice:  Trying to get property of non-object in /home/activeap/public_html/gallery3.php on line 365
+[01-Sep-2018 10:50:38 UTC] PHP Notice:  Undefined variable: show_error in /home/activeap/public_html/testimonials.php on line 209
+[01-Sep-2018 10:51:09 UTC] PHP Warning:  file_get_contents(/data/pagedescription.JSON): failed to open stream: No such file or directory in /home/activeap/public_html/acknowledgements.php on line 95
+[01-Sep-2018 10:51:09 UTC] PHP Notice:  Undefined variable: metadatajson in /home/activeap/public_html/acknowledgements.php on line 128
+[01-Sep-2018 10:51:09 UTC] PHP Notice:  Trying to get property of non-object in /home/activeap/public_html/acknowledgements.php on line 128
+[01-Sep-2018 10:51:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/activeap/public_html/acknowledgements.php on line 128
+[01-Sep-2018 10:51:09 UTC] PHP Notice:  Undefined variable: page_title in /home/activeap/public_html/acknowledgements.php on line 193
+[01-Sep-2018 10:51:09 UTC] PHP Notice:  Undefined variable: page_content_text in /home/activeap/public_html/acknowledgements.php on line 194
+[01-Sep-2018 10:57:27 UTC] PHP Warning:  file_get_contents(/data/pagedescription.JSON): failed to open stream: No such file or directory in /home/activeap/public_html/acknowledgements.php on line 95
+[01-Sep-2018 10:57:27 UTC] PHP Notice:  Undefined variable: metadatajson in /home/activeap/public_html/acknowledgements.php on line 128
+[01-Sep-2018 10:57:27 UTC] PHP Notice:  Trying to get property of non-object in /home/activeap/public_html/acknowledgements.php on line 128
+[01-Sep-2018 10:57:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/activeap/public_html/acknowledgements.php on line 128
+[01-Sep-2018 10:57:27 UTC] PHP Notice:  Undefined variable: page_title in /home/activeap/public_html/acknowledgements.php on line 193
+[01-Sep-2018 10:57:27 UTC] PHP Notice:  Undefined variable: page_content_text in /home/activeap/public_html/acknowledgements.php on line 194
+[01-Sep-2018 10:57:27 UTC] PHP Notice:  Undefined variable: show_error in /home/activeap/public_html/testimonials.php on line 209
+[01-Sep-2018 10:57:27 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/activeap/public_html/i_menu_items.php:101) in /home/activeap/public_html/i_share_memory.php on line 6
+[01-Sep-2018 10:57:27 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/activeap/public_html/i_menu_items.php:101) in /home/activeap/public_html/i_share_memory.php on line 6
+[01-Sep-2018 10:57:28 UTC] PHP Notice:  Undefined property: stdClass::$thumbnail_url in /home/activeap/public_html/gallery3.php on line 240
+[01-Sep-2018 10:57:28 UTC] PHP Notice:  Undefined property: stdClass::$thumbnail_url in /home/activeap/public_html/gallery3.php on line 240
+[01-Sep-2018 10:57:28 UTC] PHP Notice:  Undefined property: stdClass::$thumbnail_url in /home/activeap/public_html/gallery3.php on line 240
+[01-Sep-2018 11:08:38 UTC] PHP Warning:  file_get_contents(/data/pagedescription.JSON): failed to open stream: No such file or directory in /home/activeap/public_html/acknowledgements.php on line 95
+[01-Sep-2018 11:08:38 UTC] PHP Notice:  Undefined variable: metadatajson in /home/activeap/public_html/acknowledgements.php on line 128
+[01-Sep-2018 11:08:38 UTC] PHP Notice:  Trying to get property of non-object in /home/activeap/public_html/acknowledgements.php on line 128
+[01-Sep-2018 11:08:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/activeap/public_html/acknowledgements.php on line 128
+[01-Sep-2018 11:08:38 UTC] PHP Notice:  Undefined variable: page_title in /home/activeap/public_html/acknowledgements.php on line 193
+[01-Sep-2018 11:08:38 UTC] PHP Notice:  Undefined variable: page_content_text in /home/activeap/public_html/acknowledgements.php on line 194
+[01-Sep-2018 11:10:46 UTC] PHP Notice:  Undefined property: stdClass::$card in /home/activeap/public_html/ajax.php on line 146
+[01-Sep-2018 11:10:46 UTC] PHP Notice:  Undefined property: stdClass::$card in /home/activeap/public_html/ajax.php on line 146
+[01-Sep-2018 11:10:46 UTC] PHP Notice:  Undefined property: stdClass::$content_type in /home/activeap/public_html/ajax.php on line 146
+[01-Sep-2018 11:10:46 UTC] PHP Notice:  Undefined property: stdClass::$card in /home/activeap/public_html/ajax.php on line 146
+[01-Sep-2018 11:10:55 UTC] PHP Notice:  Undefined property: stdClass::$card in /home/activeap/public_html/ajax.php on line 146
+[01-Sep-2018 11:10:55 UTC] PHP Notice:  Undefined property: stdClass::$card in /home/activeap/public_html/ajax.php on line 146
+[01-Sep-2018 11:10:55 UTC] PHP Notice:  Undefined property: stdClass::$content_type in /home/activeap/public_html/ajax.php on line 146
+[01-Sep-2018 11:10:55 UTC] PHP Notice:  Undefined property: stdClass::$card in /home/activeap/public_html/ajax.php on line 146

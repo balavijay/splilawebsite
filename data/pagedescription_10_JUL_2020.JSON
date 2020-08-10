@@ -1,0 +1,276 @@
+{
+
+    "errCode": 0,
+    "message": "Success",
+    "resource": [{
+            "content_type": "who-is-srila-prabhupada",
+            "title": "<i class='fa fa-user-o' ></i> Who is Srila Prabhupada",
+            "content_text": "<p><b>Be in the association of Srila Prabhupada. Always.</b> <br /> The verdict of all revealed scriptures is that by even a moment’s association with a pure devotee, one can attain all success.  (CC Madhya 22.54)</p>",
+            "content_url": "",
+            "topImage": "ic_sp_lila_1.jpg",
+            "display_in_cards": false,
+            "display_in_footer": false
+        },
+        {
+            "content_type": "srila-prabhupada-biography",
+            "title": "<i class='fa fa-book'></i> Biography",
+            "content_text": "<p><b>Acharya  - One who teaches by example</b><br /> The life of a pure devotee as a treat to our eyes.</p>",
+            "content_url": "http://srilaprabhupadalila.com/v2/api/content?queryId=QUERY_GET_GENERIC_CONTENT&args=type:ILLUSTRATIONS,web:1",
+            "topImage": "ic_sp_lila_8.jpg",
+            "display_in_cards": false,
+            "display_in_footer": false
+        },{
+            "content_type": "disappearance-lila",
+            "title": "<i class='fa fa-user-circle-o'></i> Disappearance Lila",
+            "content_text": "<p><b>I will never die. I will live forever in my books</b><br /> He reasons ill who tells that Vaisnavas die When thou art living still in sound! The Vaisnavas die to live, and living try To spread the holy name around! </p>",
+            "content_url": "",
+            "topImage": "ic_sp_lila_8.jpg",
+            "display_in_cards": false,
+            "display_in_footer": false
+        }, {
+            "content_type": "srila-prabhupada-memories",
+            "title": "<i class='fa fa-retweet' ></i> Memories",
+            "content_text": "<p><b>Be in the association of Srila Prabhupada. Always.</b> <br /> The verdict of all revealed scriptures is that by even a moment’s association with a pure devotee, one can attain all success.  (CC Madhya 22.54)</p>",
+            "content_url": "",
+            "topImage": "ic_sp_lila_2.jpg",
+            "display_in_cards": true,
+            "display_in_footer": true
+        },
+        {
+            "content_type": "quotes",
+            "title": "<i class='fa fa-commenting' ></i> Quotes",
+            "content_text": "<p><b>Vani, or the words of the spiritual exists with us eternally</b><br /> <i>guru-mukha-padma-vakya, cittete koriya aikya, ar na koriho mane asa</i><br /> - My only wish is to have my consciousness purified by the words emanating from his lotus mouth. <br /> –Guru vandana  </p>",
+            "content_url": "http://srilaprabhupadalila.com/v2/api/content?queryId=QUERY_GET_GENERIC_CONTENT&args=type:QUOTE,web:1",
+            "topImage": "ic_sp_lila_10.png",
+            "display_in_cards": false,
+            "display_in_footer": true
+        },
+        {
+            "content_type": "srila-prabhupada-analogies",
+            "title": "<i class='fa fa-table'></i> Prabhupada Analogies</a>",
+            "content_text": "<p><b>Experience through examples</b><br />Srila Prabhupada brings us the knowledge of the Vedic literatures with his hard hitting analogies.</p>",
+            "content_url": "http://srilaprabhupadalila.com/v2/api/content?queryId=QUERY_GET_GENERIC_CONTENT&args=type:ANALOGIES,web:1",
+            "topImage": "ic_sp_lila_9.jpg",
+            "display_in_cards": false,
+            "display_in_footer": false
+        },
+        {
+            "content_type": "srila-prabupada-rare-pictures",
+            "title": "<i class='fa fa-picture-o'></i> Rare Pictures",
+            "content_text": "<p><b>A picture speaks a thousand words. And that of a pure devotee, limitless.</b><br /> <i> My dear Vaisnava, seeing a person like you is the perfection of one's eyesight<br /> - Hari-bhakti-sudhodaya (13.2)</i></p>",
+            "content_url": "http://srilaprabhupadalila.com/v2/api/content?queryId=QUERY_GET_GENERIC_CONTENT&args=type:PHOTO,web:1",
+            "topImage": "ic_sp_lila_4.jpg",
+            "display_in_cards": false,
+            "display_in_footer": true
+        },
+        {
+            "content_type": "eulogies-by-eminent",
+            "title": "<i class='fa fa-comments-o'  ></i> Eulogies By Eminent",
+            "content_text": "<p><b>The glories of a pure devotee are inexhaustible.</b><br /><i>ebe jasa ghusuk tribhuvana<br />May your glories now be proclaimed throughout the three worlds.<br />-Guru Vandana</i></p>",
+            "content_url": "http://srilaprabhupadalila.com/v2/api/content?queryId=QUERY_GET_GENERIC_CONTENT&args=type:EULOGIES,web:1",
+            "topImage": "ic_sp_lila_8.jpg",
+            "display_in_cards": false,
+            "display_in_footer": false
+        },
+        {
+            "content_type": "predictions",
+            "title": "<i class='fa fa-wpexplorer' aria-hidden='true'></i> Predictions",
+            "content_text": "<p>Prabhupada's arrival has impacted the minds of scholars and devotees even before he actually advented. <br /> <i>&ldquo; A religion from the East will move the West&rdquo;<i> –Nostradamus, 16th century French apothecary and seer</p>",
+            "content_url": "http://srilaprabhupadalila.com/v2/api/content?queryId=QUERY_GET_GENERIC_CONTENT&args=type:PREDICTIONS,web:1",
+            "topImage": "ic_sp_lila_6.jpg",
+            "display_in_cards": false,
+            "display_in_footer": true
+        },
+        {
+            "content_type": "quick-facts",
+            "title": "<i class='fa fa-forward '></i> Quick Facts",
+            "content_text": "<p>Facts about Prabhupada that can quickly sweep you off your feet.</p>",
+            "content_url": "http://srilaprabhupadalila.com/v2/api/content?queryId=QUERY_GET_GENERIC_CONTENT&args=type:DROP_OF_NECTOR,web:1",
+            "topImage": "ic_sp_lila_3.jpg",
+            "display_in_cards": false,
+            "display_in_footer": false
+        },
+        {
+            "content_type": "voyage-of-compassion",
+            "title": "<i class='fa fa-ship'></i> Voyage Of Compassion",
+            "content_text": "<p>Reminisce Prabhupada’s journey to the West aboard the Jaladuta, the epitome of a pure devotee’s compassion. Memories and anecdotes connected to Prabhupada’s legendary voyage</p>",
+            "content_url": "http://srilaprabhupadalila.com/v2/api/content?queryId=QUERY_GET_GENERIC_CONTENT&args=type:VOYAGE_OF_COMPASSION,web:1",
+            "topImage": "ic_sp_lila_11.jpg",
+            "display_in_cards": false,
+            "display_in_footer": false
+        },
+        {
+            "content_type": "108_temples",
+            "title": "<i class='fa fa-building-o '></i> 108 Temples",
+            "content_text": "<p><b>The glories of a pure devotee are inexhaustible.</b><br /><i>ebe jasa ghusuk tribhuvana<br /> May your glories now be proclaimed throughout the three worlds.<br />-Guru Vandana</i></p>",
+            "content_url": "http://srilaprabhupadalila.com/v2/api/content?queryId=QUERY_GET_GENERIC_CONTENT&args=type:108_TEMPLES,web:1",
+            "topImage": "ic_sp_lila_7.jpg",
+            "display_in_cards": false,
+            "display_in_footer": true
+        },
+        {
+            "content_type": "poetry-by-prabhupada",
+            "title": "<i class='fa fa-pencil-square-o '></i> Poetry by Prabhupada",
+            "content_text": "<p><b>Prabhupada’s ballads of bhakti </b> <br />One of the qualities of a pure devotee is that he is a kavi.</p>",
+            "content_url": "http://srilaprabhupadalila.com/v2/api/content?queryId=QUERY_GET_GENERIC_CONTENT&args=type:POETRY_OF_PRABHUPADA,web:1",
+            "topImage": "ic_sp_lila_5.jpg",
+            "display_in_cards": false,
+            "display_in_footer": false
+        },
+        {
+            "content_type": "poetry-for-prabhupada",
+            "title": "<i class='fa fa-newspaper-o' aria-hidden='true'></i> Poetry for Prabhupada",
+            "content_text": "<b>Devotees sing the glories of Srila Prabhupada</b>",
+            "content_url": "http://srilaprabhupadalila.com/v2/api/content?queryId=QUERY_GET_GENERIC_CONTENT&args=type:SANSKRIT_SLOKAS,web:1",
+            "topImage": "ic_sp_lila_2.jpg",
+            "display_in_cards": false,
+            "display_in_footer": false
+        },
+        {
+            "content_type": "acknowledge",
+            "title": "<i class='fa fa-thumbs-o-up' aria-hidden='true'></i> Acknowledgements",
+            "content_text": "",
+            "content_url": "",
+            "topImage": "ic_sp_lila_2.jpg",
+            "display_in_cards": false,
+            "display_in_footer": false
+        },
+        {
+            "content_type": "testimonials",
+            "title": "<i class='fa fa-star'  ></i> Testimonials",
+            "content_text": "",
+            "content_url": "data/testimonials.JSON",
+            "topImage": "ic_sp_lila_2.jpg",
+            "display_in_cards": false,
+            "display_in_footer": false
+        },
+        {
+            "content_type": "share-with-us",
+            "title": "<i class='fa fa-paperclip'  ></i> Share with us",
+            "content_text": "",
+            "content_url": "",
+            "topImage": "ic_sp_lila_2.jpg",
+            "display_in_cards": false,
+            "display_in_footer": false
+        },
+        {
+            "content_type": "mail-confirmation",
+            "title": "<i class='fa fa-envelope-square' ></i>    Thank You",
+            "content_text": "Great! You have Successfully registered for Srila Prabhupada Lila Newsletter. You will hear from us shortly.",
+            "content_url": "",
+            "topImage": "ic_sp_lila_2.jpg",
+            "display_in_cards": false,
+            "display_in_footer": false
+        },
+        {
+            "content_type": "subscribe",
+            "title": "<i class='fa fa-envelope-square' ></i>    Subscribe to Newsletter",
+            "content_text": "Enter you email address, you will start receiving newsletter from Srila Prabhupada Lila",
+            "content_url": "",
+            "topImage": "ic_sp_lila_3.jpg",
+            "display_in_cards": false,
+            "display_in_footer": false
+        },
+        {
+            "content_type": "search-results",
+            "title": "<i class='fa fa-search' ></i>    Search Results",
+            "content_text": "",
+            "content_url": "http://srilaprabhupadalila.com/v2/api/search?queryId=QUERY_SEARCH&args=query_text",
+            "topImage": "ic_sp_lila_3.jpg",
+            "display_in_cards": false,
+            "display_in_footer": false
+        },
+        {
+            "content_type": "support-us",
+            "title": "<i class='fa fa-usd red'></i> <span class='red'>Support us</span>",
+            "content_text": "You can also be a part of this noble cause of glorifying a pure devotee thru this website and Srila Prabhupada Lila app. You can contribute with your valuable time and/or money.",
+            "content_url": "",
+            "topImage": "ic_sp_lila_3.jpg",
+            "display_in_cards": false,
+            "display_in_footer": true
+        },
+        {
+            "content_type": "support-confirmation",
+            "title": "<i class='fa fa-envelope-square' ></i>    Thank You",
+            "content_text": "All Glories to Srila Prabhupada! You have Successfully registered for Srila Prabhupada Lila Service. You will hear from us shortly.",
+            "content_url": "",
+            "topImage": "ic_sp_lila_3.jpg",
+            "display_in_cards": false,
+            "display_in_footer": false
+        },
+        {
+            "content_type": "share-confirmation",
+            "title": "<i class='fa fa-envelope-square' ></i>    Thank You",
+            "content_text": "All Glories to Srila Prabhupada! We have received your mail. ",
+            "content_url": "",
+            "topImage": "ic_sp_lila_3.jpg",
+            "display_in_cards": false,
+            "display_in_footer": false
+        },
+        {
+            "content_type": "events",
+            "title": "<i class='fa fa-link ' ></i> Editor's Choice",
+            "content_text": "Special events coverage of Srila Prabhupada's movement. ",
+            "content_url": "http://srilaprabhupadalila.com/v2/api/content?queryId=QUERY_CONTENT_TITLES&args=type:EVENT,key:event_name,web:1",
+            "topImage": "ic_sp_lila_3.jpg",
+            "display_in_cards": true,
+            "display_in_footer": false
+        },
+        {
+            "content_type": "sp-rooms",
+            "title": "<i class='fa fa-arrows' ></i> 360 view - Lila Sthali ",
+            "content_text": "360° view of rooms where Srila Prabhupada had stayed. ",
+            "content_url": "http://srilaprabhupadalila.com/v2/api/content?queryId=QUERY_GET_GENERIC_CONTENT&args=type:SP_ROOM,web:1",
+            "topImage": "ic_sp_lila_3.jpg",
+            "display_in_cards": true,
+            "display_in_footer": false
+        },
+        {
+            "content_type": "sp-stories",
+            "title": "<i class='fa fa-assistive-listening-systems' ></i> Srila Prabhupada Stories",
+            "content_text": "Stories shared by Srila Prabhupada during  conversations and lectures.  ",
+            "content_url": "http://srilaprabhupadalila.com/v2/api/content?queryId=QUERY_GET_GENERIC_CONTENT&args=type:SP_STORY,web:1",
+            "topImage": "ic_sp_lila_3.jpg",
+            "display_in_cards": true,
+            "display_in_footer": false
+        },
+        {
+            "content_type": "photo-pastimes",
+            "title": "<i class='fa fa-file-image-o' ></i> Photo Pastimes",
+            "content_text": "Memories associated with the photo. ",
+            "content_url": "http://srilaprabhupadalila.com/v2/api/content?queryId=QUERY_GET_GENERIC_CONTENT&args=type:PHOTO_PASTIME,web:1",
+            "topImage": "ic_sp_lila_3.jpg",
+            "display_in_cards": true,
+            "display_in_footer": false
+        },
+        {
+            "content_type": "sp-letters",
+            "title": "<i class='fa fa-file-text-o ' ></i> Srila Prabhupada Letters",
+            "content_text": "Letters answered by Srila Prabhupada ",
+            "content_url": "http://srilaprabhupadalila.com/v2/api/content?queryId=QUERY_GET_GENERIC_CONTENT&args=type:LETTER_PASTIME,web:1",
+            "topImage": "ic_sp_lila_3.jpg",
+            "display_in_cards": true,
+            "display_in_footer": false
+        },
+        {
+            "content_type": "news-articles",
+            "title": "<i class='fa fa-newspaper-o' ></i> News Articles",
+            "content_text": "News coverage of Srila Prabhupada and his movement. ",
+            "content_url": "http://srilaprabhupadalila.com/v2/api/content?queryId=QUERY_GET_GENERIC_CONTENT&args=type:NEWS_ARTICLE,web:1",
+            "topImage": "ic_sp_lila_3.jpg",
+            "display_in_cards": true,
+            "display_in_footer": false
+        },
+        {
+            "content_type": "newsletter-archive",
+            "title": "<i class='fa fa-list-ul' ></i> Daily Newsletter Archive",
+            "content_text": " Srila Prabhupada Today Daily Newsletter Archival ",
+            "content_url": "",
+            "topImage": "ic_sp_lila_3.jpg",
+            "display_in_cards": true,
+            "display_in_footer": false
+        }
+
+
+    ]
+}

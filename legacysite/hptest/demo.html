@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Responsive jQuery slideshow</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/responsiveslides.css">
+    <link rel="stylesheet" href="css/hpslider.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+        // You can also use "$(window).load(function() {"
+        $(function() {
+
+
+
+            // Slideshow 
+            $("#hpslider").responsiveSlides({
+                auto: true,
+                manualControls: '#hpslider-pager',
+                pager: true,
+                nav: true,
+                speed: 500,
+                namespace: "callbacks"
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+    <div id="hpwrapper">
+
+
+
+        <!-- Slideshow -->
+        <div class="callbacks_container">
+            <ul class="rslides" id="hpslider">
+                <li>
+                    <img src="https://iskconblobs.blob.core.windows.net/images/sp_today/hdpi/SPT188.png" alt="">
+                    <p class="caption">This is a caption</p>
+                </li>
+                <li>
+                    <img src="https://iskconblobs.blob.core.windows.net/images/lila_smaran_1/hdpi/LSO188.png" alt="">
+                    <p class="caption">This is another caption</p>
+                </li>
+                <li>
+                    <img src="https://iskconblobs.blob.core.windows.net/images/rare_picture/hdpi/RP188.png" alt="">
+                    <p class="caption">The third caption</p>
+                </li>
+                <li>
+                    <img src="https://iskconblobs.blob.core.windows.net/images/lila_smaran_2/hdpi/LST188.png" alt="">
+                    <p class="caption">This is a caption</p>
+                </li>
+                <li>
+                    <img src="https://iskconblobs.blob.core.windows.net/images/quote/hdpi/QU188.png" alt="">
+                    <p class="caption">This is another caption</p>
+                </li>
+                <li>
+                    <img src="https://iskconblobs.blob.core.windows.net/images/drop_of_nector/hdpi/FV041.png" alt="">
+                    <p class="caption">The third caption</p>
+                </li>
+            </ul>
+
+            <!-- Slideshow 4 Pager -->
+            <ul class="rslides_tabs" id="hpslider-pager">
+                <li>
+                    <a href="#"><img src="https://iskconblobs.blob.core.windows.net/images/sp_today/hdpi/SPT188.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://iskconblobs.blob.core.windows.net/images/lila_smaran_1/hdpi/LSO188.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://iskconblobs.blob.core.windows.net/images/rare_picture/hdpi/RP188.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://iskconblobs.blob.core.windows.net/images/lila_smaran_2/hdpi/LST188.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://iskconblobs.blob.core.windows.net/images/quote/hdpi/QU188.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://iskconblobs.blob.core.windows.net/images/drop_of_nector/hdpi/FV041.png" alt=""></a>
+                </li>
+            </ul>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>

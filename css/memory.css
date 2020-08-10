@@ -1,0 +1,43 @@
+.article-box {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 0.2px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.memory-title {
+    margin: 10px 10px 10px 20px;
+}
+
+.nav-tabs li {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.nav-tabs li:first-child {
+    margin-left: 20px;
+}
+
+.tabpanel div.csspanes:not(:first-child) {
+    display: none;
+}
+
+.memory-loader {
+    text-align: center;
+    margin: 10px;
+}
+
+.container-read {
+    width: 95%;
+}
+
+.container-read ul {
+    padding-left: 10px;
+}

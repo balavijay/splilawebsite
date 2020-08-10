@@ -1,0 +1,26 @@
+[{
+    "location": [{
+        "paris": "Paris",
+        "london": "London",
+        "newyork": "New York",
+        "bombay": "Bombay(Mumbai)",
+        "unknown": "(Unknown)"
+
+    }],
+    "year": [{
+        "pre": "Pre-1965",
+        "1965": "1965",
+        "1966": "1966",
+        "1967": "1967",
+        "unknown": "(Unknown)"
+
+    }],
+    "photographer": [{
+        "bhargavadasa": "Bhargava Dasa",
+        "ramadasa": "Rama Dasa",
+        "krishnadasa": "Krishna Dasa",
+        "unknown": "(Unknown)"
+
+    }]
+
+}]

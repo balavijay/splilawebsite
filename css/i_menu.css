@@ -1,0 +1,126 @@
+       .topnav {
+           overflow: hidden;
+           background-color: transparent;
+       }
+       
+       .topnav a {
+           float: left;
+           display: block;
+           color: #E3AE57;
+           text-align: center;
+           padding: 14px 16px;
+           text-decoration: none;
+           font-size: 17px;
+       }
+       
+       .topnav a:hover {
+           background-color: #ddd;
+           color: black;
+       }
+       
+       .active {
+           color: white;
+       }
+       
+       .navbar-toggle {
+           display: block;
+       }
+       
+       .navbar-nav {
+           display: none;
+       }
+       
+       #myTopnav {
+           display: none;
+           background: #fff;
+           color: #E9724C;
+           padding: 10px;
+           border: 5px solid #E9724C;
+       }
+       
+       #myTopnav a {
+           color: #E9724C;
+           display: block;
+           width: 100%;
+       }
+       
+       #myTopnav a:hover {
+           color: #E3AE57;
+       }
+       
+       #myTopnav a:hover i {
+           font-size: 1.2em;
+       }
+       
+       #myTopnav ul {
+           list-style: none;
+           font-size: 16px;
+           font-weight: 500;
+           padding: 0px;
+       }
+       
+       #myTopnav ul li {
+           border-bottom: 1px solid;
+           padding: 5px;
+       }
+       
+       #myTopnav ul li:last-child {
+           border-bottom: none;
+       }
+       
+       #myTopnav ul li a i {
+           margin-right: 5px;
+       }
+       
+       @media screen and (max-width: 1400px) {
+           .navbar-header {
+               width: 100%;
+           }
+           #myTopnav {
+               position: absolute;
+               width: 300px;
+               overflow: auto;
+               height: 80vh;
+           }
+           .navbar-right i {
+               font-size: 2em;
+           }
+           .navbar-right a {
+               margin-left: 20px;
+           }
+       }
+       
+       .red {
+           color: #ff0000;
+       }
+       
+       @media screen and (max-width: 767px) {
+           .navbar-header {
+               width: auto;
+           }
+           #myTopnav {
+               height: 77vh;
+               margin-left: 12px;
+           }
+           #myTopnav ul {
+               position: static;
+               font-size: 20px;
+           }
+           #myTopnav ul li {
+               padding: 0px 5px 5px 5px;
+           }
+           .navbar-right {
+               display: inline;
+           }
+           .navbar-right i {
+               font-size: 1.5em;
+               margin-top: 15px;
+           }
+           .navbar-right a {
+               margin-left: 5px;
+           }
+       }
+       
+       .topnav .icon {
+           display: block;
+       }

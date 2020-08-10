@@ -1,0 +1,16 @@
+{
+
+    "errCode": 0,
+    "message": "Success",
+    "resource": [{
+        "firstName": "Vijay",
+        "lastName": "reddy",
+        "email": "asdv@ymail.com",
+        "mobile": "98989"
+    }, {
+        "firstName": "Ajay",
+        "lastName": "reddy",
+        "email": "asdv@ymail.com",
+        "mobile": "98989"
+    }]
+}

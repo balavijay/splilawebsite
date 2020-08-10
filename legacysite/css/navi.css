@@ -1,0 +1,140 @@
+/*nav.greedy {
+	position: relative;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	background: #008982;
+}*/
+nav.greedy {
+    position: fixed;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background: #008982;
+    width: 100%;
+    z-index: 999;
+}
+nav.greedy h1 {
+	display: flex;
+	align-self: stretch;
+	align-items: center;
+	background: transparent;
+	text-transform:uppercase;
+	padding: 15px 0;
+	letter-spacing:.5px;
+	margin:0;
+	font: 900 20px/16px 'Roboto', Arial, sans-serif;
+}
+.navbar-brand {height:auto;}
+nav.greedy h1 a{display:block;color: #fff;text-decoration:none;}
+nav.greedy button {
+	align-self: stretch;
+	transition: all .4s ease-out;
+	padding: 0 1rem 0 1.5rem;
+	outline: 0;
+	border: 0;
+    font-size: 26px;
+    font-weight: bold;
+    background: #01706a;
+    color: #fff;
+}
+nav.greedy button.hidden {
+	transition: none;
+	border-right: 0.5rem solid #b6b6b6;
+	width: 0;
+	padding: 0;
+	overflow: hidden;
+}
+/*nav.greedy button::after {
+	content: attr(count);
+	display: inline-flex;
+	width: 26px;
+	height: 26px;
+	align-items: center;
+	justify-content: center;
+	background: #fff;
+	color: #01706a;
+	box-shadow: none;
+	border-radius: 50%;
+	font: 900 14px/14px 'Roboto', Arial, sans-serif;
+	margin-left: 1rem;
+	margin-right: 0;
+}*/
+ul.links {
+	display: flex;
+	justify-content: flex-end;
+	flex: 1;
+	overflow: hidden;
+	list-style:none;
+	margin:0;
+}
+ul.links li {flex: none;padding: 1rem;}
+ul.links li a {	
+	font: 400 13px/16px 'Roboto', Arial, sans-serif;
+	color: #fff;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+ul.hidden-links {
+	position: absolute;
+	background: #01706a;
+	right: 0;
+	top: 100%;
+    list-style: none;
+    -webkit-padding-start: 15px;
+}
+ul.hidden-links li a {
+	font: 400 13px/16px 'Roboto', Arial, sans-serif;
+	color: #fff;
+	text-decoration:none;
+	padding-right: 1rem;
+}
+
+ul.hidden-links li a:hover, ul.links li a:hover {color: #dcceb3;}
+ul.hidden-links.hidden {display: none;}
+ul.hidden-links li {padding:8px 0;text-transform:uppercase;}
+
+
+@media (max-width: 480px){
+	nav.greedy {height: 50px;}
+	nav.greedy h1 {padding: 25px 15px;}
+	.logo {
+		font: 900 16px/16px 'Roboto', Arial, sans-serif;
+		padding:0;
+		margin-top:0;
+	}
+	nav.greedy button {
+		padding: 0 10px;
+	}
+	nav.greedy button::after{display:none;}
+}
+.sticknav {
+    top: 0;
+    background: #008982;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+.breadcrumb{
+	top: 50px;
+	background:#fff;
+	border-radius: 0px;
+	box-shadow: 0 8px 6px -6px rgba(0,0,0,.5);
+	font:400 13px/16px 'Roboto', Arial, sans-serif;
+}
+.breadcrumb .fa {
+    font-size: 10px;
+	color:#818181;
+}
+.breadcrumb a:hover{
+	color:#000;
+}
+.breadcrumb a{
+	color:#818181;
+	display: inline-block;
+	margin-right: 8px;
+	margin-left: 4px;
+}
+.breadcrumb a.active{
+	color:#008982;
+}

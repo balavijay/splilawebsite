@@ -1,0 +1,85 @@
+{
+
+    "errCode": 0,
+    "message": "Success",
+    "resource": [{
+
+            "name": "His Holiness Giriraja Swami",
+            "content_text": "I have been reading and relishing your postings every day. I very much appreciate your postings — the images, the event of the day, the 'Memory of the Day', and the 'Photo of the Day'. You do a wonderful job. Thank you very, very much.",
+            "content_url": "1_Giriraja_Swami.jpg"
+        },
+        {
+
+            "name": "His Holiness Lokanath Swami",
+            "content_text": "You have both my blessings and support for this project. I wish you all the success.",
+            "content_url": "2_Lokanath_Swami.jpg"
+        },
+        {
+
+            "name": "His Grace Guru Dasa",
+            "content_text": "You have my blessings and support for any glorification of Prabhupad.",
+            "content_url": "3_Guru_Dasa.jpg"
+        },
+        {
+
+            "name": "Her Grace Mahamaya Devi Dasi",
+            "content_text": "I am honored to have my memories on your website.",
+            "content_url": "4_Mahamaya_Dasi.jpg"
+        },
+        {
+
+            "name": "His Grace Siddhanta Dasa",
+            "content_text": "As far as I am aware, no one else is doing what you are doing.",
+            "content_url": "5_Siddhanta_Dasa.jpg"
+        },
+        {
+
+            "name": "His Grace Sankarshan Dasa",
+            "content_text": "Thank you for giving us such a wonderful way to connect with Srila Prabhupada every day. Your app is fantastic.",
+            "content_url": "6_Sankarshan_Dasa.jpg"
+        },
+        {
+
+            "name": "His Grace Yadubara Dasa",
+            "content_text": "The work you are doing sounds invaluable as a reference material to the pastimes of Srila Prabhupada.",
+            "content_url": "7_Yadubara_Dasa.jpg"
+        },
+        {
+
+            "name": "His Holiness Mahanidhi Swami",
+            "content_text": "Feeling our love for Gurudeva increasing just by hearing about your noble efforts to glorify His Divine Grace. Surely Narada Muni will rejoice over this broadcasting of the vina vibrations of a Siddha Saint's mahima.",
+            "content_url": "8_Mahanidhi_Swami.jpg"
+        },
+        {
+
+            "name": "His Holiness Satsvarupa Dasa Goswami",
+            "content_text": "I think you are working at a noble mission, gathering all of Prabhupada's lilas, biographies, memoirs, etc.",
+            "content_url": "9_Satsvarupa_Dasa_Goswami.jpg"
+        },
+        {
+
+            "name": "Her Grace Kusha Devi Dasi",
+            "content_text": "I am enlivened to hear of your service. I am happy you are doing something so nice to dedicate to Srila Prabhupada.",
+            "content_url": "10_Kusha_Devi_Dasi.jpg"
+        },
+        {
+
+            "name": "His Grace Gaura Dasa",
+            "content_text": "Thank you very much for the valuable seva you are rendering in glorification of Srila Prabhupada!",
+            "content_url": "11_Gaura_Dasa.jpg"
+        },
+        {
+
+            "name": "His Grace Ranjit Dasa",
+            "content_text": "I like very much your presentations. Thank you for your nice service.",
+            "content_url": "12_Ranjit_Dasa.png"
+        },
+        {
+
+            "name": "His Holiness Bhakti Madhurya Govinda Goswami",
+            "content_text": "Simply the best of all the Prabhupada Lila webs.  I relish your daily releases.",
+            "content_url": "13_Bhaktimadhurya.jpg"
+        }
+
+    ]
+}

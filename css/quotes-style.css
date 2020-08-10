@@ -1,0 +1,70 @@
+#q_carousel,
+#t_carousel {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#q_carousel #q_slides,
+#t_carousel #t_slides {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+#q_carousel #q_slides ul,
+#t_carousel #t_slides ul {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#q_carousel #q_slides li,
+#t_carousel #t_slides li {
+    width: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+#q_carousel .quote-phrase,
+#t_carousel .quote-phrase,
+.quote-author {
+    font-family: sans-serif;
+    font-weight: 300;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 5px 20px;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+#q_carousel .quoteContainer,
+#t_carousel .quoteContainer,
+.authorContainer {
+    display: table;
+    width: 100%;
+    font-style: italic;
+    font-weight: 500;
+}
+
+#q_carousel .quoteContainer .reference,
+#t_carousel .quoteContainer .reference {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#q_carousel .quoteContainer blockquote .fontclass {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#q_carousel .quoteContainer blockquote div {
+    display: inline;
+}
+
+#t_buttons,
+#q_buttons {
+    margin-left: 30px;
+}
