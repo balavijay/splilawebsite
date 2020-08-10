@@ -84,6 +84,7 @@
 	"disappearance-lila"		=>	"disappearance-lila.php",
 	"events"					=>	"events.php",
 	"privacy-policy" 			=>  "privacy-policy/privacy.php",
+	"prabhupada-in-south-india" 		=>  "prabhupada-in-south-india.php",
 	
 
 	/* Routes for legacy site */

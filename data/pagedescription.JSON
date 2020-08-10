@@ -278,6 +278,15 @@
             "topImage": "ic_sp_lila_3.jpg",
             "display_in_cards": false,
             "display_in_footer": false
+        },
+        {
+            "content_type": "prabhupada-in-south-india",
+            "title": "<i class='fa fa-book' ></i> Prabhupada in South India",
+            "content_text": " <b>Author</b>: Rajasekhara Dasa Brahmacari <br /> <b>Pages</b>: 750 <br /> <b>Available by</b>: Karthik 2020 ",
+            "content_url": "",
+            "topImage": "ic_sp_lila_12.jpg",
+            "display_in_cards": false,
+            "display_in_footer": false
         }
 
 
