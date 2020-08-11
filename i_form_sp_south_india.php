@@ -21,7 +21,6 @@
         <div class="form-group">
         <label for="bookoption">Select:</label>
         <select id='bookoption'> 
-            <option value='1'> 1 Book </option>
             <option value='10'> 10 Books </option>
             <option value='20'> 20 Books </option>
             <option value='100'> 100 Books </option>
@@ -35,11 +34,11 @@
         </textarea>
         </div>
 
-        <div class="form-group">
+        <!--div class="form-group">
         <label for="txtComments">Comments :</label>
         <textarea  class="form-control"   placeholder="Enter postal address with Pin code" required name="txtComments" id="txtComments">
         </textarea>
-        </div>
+        </div-->
 
         <button type="submit" class="btn btn-default section-btn btn btn-success"  onclick="validateForm();" >Donate</button>
     </form> 
@@ -47,30 +46,31 @@
 
     <script>
 
-    calculateDollar( 1 );
+    calculateTotal( 10 );
 
     $('#bookoption').on('change', function() {
 
-    calculateDollar( this.value );
+        calculateTotal( this.value );
     
     });
 
-async function calculateDollar(count){
+ function calculateTotal(count){
     
-    let currency = 75;
+    // let currency = 75;
 
-    await fetch("https://api.exchangeratesapi.io/latest?base=USD")
-            .then(async function(response) {
-                const res = await response.json();
-                currency = res.rates.INR.toFixed(0)
-            }).catch(function(error) {
-                currency = 75;
-            });
+    // await fetch("https://api.exchangeratesapi.io/latest?base=USD")
+    //         .then(async function(response) {
+    //             const res = await response.json();
+    //             currency = res.rates.INR.toFixed(0)
+    //         }).catch(function(error) {
+    //             currency = 75;
+    //         });
 
-    currency = currency ? currency : 75;
-    let booktotal = 4 * count * currency
-    $('#bookprice').html( '(INR ' + booktotal + '/-)');
-    $('#txtAmount').val(booktotal);
+    // currency = currency ? currency : 75;
+    let perbook = 400;
+    let totalcost = perbook * count;
+    $('#bookprice').html( '(INR ' + totalcost + '/-)');
+    $('#txtAmount').val(totalcost);
     $('#txtQuantity').val(count);
 }
 

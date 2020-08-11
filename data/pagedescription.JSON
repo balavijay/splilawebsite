@@ -208,6 +208,24 @@
             "display_in_footer": false
         },
         {
+            "content_type": "order-placed",
+            "title": "<i class='fa fa-envelope-square' ></i>    Thank You",
+            "content_text": "Your order has been placed. Kindly check your email and complete the payment process. You would have received a mail from requests@instamojo.email. ",
+            "content_url": "",
+            "topImage": "ic_sp_lila_3.jpg",
+            "display_in_cards": false,
+            "display_in_footer": false
+        },
+        {
+            "content_type": "order-confirmation",
+            "title": "<i class='fa fa-envelope-square' ></i>    Thank You",
+            "content_text": "We have received your Order!  ",
+            "content_url": "",
+            "topImage": "ic_sp_lila_3.jpg",
+            "display_in_cards": false,
+            "display_in_footer": false
+        },
+        {
             "content_type": "events",
             "title": "<i class='fa fa-link ' ></i> Editor's Choice",
             "content_text": "Special events coverage of Srila Prabhupada's movement. ",

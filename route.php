@@ -79,6 +79,11 @@
 	"support-us"				=> 	"support-us.php",
 	"share-with-us"				=> 	"share-with-us.php",
 	"share-confirmation"		=>	"mail_confirmation.php",
+	"order-placed"				=>	"mail_confirmation.php",
+	"order-confirmation"		=>	"mail_confirmation.php",
+
+
+	
 	"support-confirmation"		=>	"mail_confirmation.php",
 	"who-is-srila-prabhupada"	=>	"whois.php",
 	"disappearance-lila"		=>	"disappearance-lila.php",
@@ -120,7 +125,9 @@
 
 	$uri = $_SERVER['REQUEST_URI'];
 
-	
+	if(strpos($uri, "order-confirmation") !== false){
+		$uri = "/order-confirmation";
+	} 
 
 	/* This is local dev envirnment virtual host name */
 
@@ -132,9 +139,6 @@
 
 	$_SERVER['REQUEST_URI'] = $uri;
 
-	
-
-	
 
 	$paths = explode ("/",$uri);
 
