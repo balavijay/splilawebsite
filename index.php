@@ -105,7 +105,7 @@
                     <div class="home-thumb">
                         <div class="section-title home-title" >
                             
-                       
+                            <!--
                             <span class="wow fadeInUp" data-wow-delay="0.2s" > The life and teachings of a pure devotee </span>
                                 
                             <span><h1>His Divine Grace A.C. Bhaktivedanta Swami Srila Prabhupada</h1> </span>
@@ -125,7 +125,17 @@
                                  and more ... 
                                 </i>
                             </span> 
-                                                        
+                            -->
+                            <span  class="wow fadeInUp" data-wow-delay="0.2s">
+                            "Prabhupada in South India" a book that includes exclusive historical records, sweet recollections from dozens of Prabhupada disciples and never
+                            before seen photos of Prabhupada.
+                            <br /><br />
+
+                            Participate in this historic project. <br /><br />
+
+                            <a href="/prabhupada-in-south-india" class="btn btn-default section-btn btn btn-success"    >Donate</a>
+                            <br />
+                            </span>                            
 
                         </div>
                     </div>

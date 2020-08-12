@@ -179,13 +179,13 @@ if($metadata === FALSE)
                     Preparing this book involved meeting Prabhupada disciples and recording their memoirs, transcribing, historical research, authoring,
                     and publishing. The expenses total Rs. 9,75,000/- ($13,000). <br /><br />
                     We need your help in meeting these expenses. <br /><br />
-
+                    <a id="donate"></a>
                     <b>Donate </b>: <br />
 
                     Your donation will help in subsidising the cost of the book. <br />
 
 
-                    <div class="container">
+                    <div  class="container">
                     <div class="row">
                     <div class="col-md-6 col-sm-6">
 

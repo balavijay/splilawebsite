@@ -22,7 +22,10 @@
 
                 <li><a href="/who-is-srila-prabhupada"> <i class="fa fa-user-o"></i>  Who is Srila Prabhupada</a></li>
                 <li><a href="/srila-prabhupada-biography"> <i class="fa fa-book"></i>  Biography</a></li>
+                <li><a href="/prabhupada-in-south-india"> <i class="fa fa-book"></i>  Prabhupada in South India</a></li>
                 <li><a href="/disappearance-lila"> <i class="fa fa-user-circle-o"></i>  Disappearance Lila</a></li>
+
+                
                 
                 <li><a href="/events"> <i class="fa fa-link"></i>  Editor's Choice</a></li>
                 <li><a href="/sp-rooms"> <i class="fa fa-arrows"></i>  360 view - Lila Sthali</a></li>
