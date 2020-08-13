@@ -219,7 +219,7 @@
         {
             "content_type": "order-confirmation",
             "title": "<i class='fa fa-envelope-square' ></i>    Thank You",
-            "content_text": "We have received your Order!  ",
+            "content_text": "We have received your Order. We will get in touch with you at the earliest.  ",
             "content_url": "",
             "topImage": "ic_sp_lila_3.jpg",
             "display_in_cards": false,

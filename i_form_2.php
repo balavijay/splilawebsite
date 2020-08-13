@@ -97,8 +97,6 @@ try{
     curl_close($ch); 
 
 
-    
-
     echo $response;
 
     $result = post('https://srilaprabhupadalila.com/v2/api/orders', array(
@@ -112,7 +110,15 @@ try{
 
     ));
 
-    header('Location: /order-placed');
+    $responsejson = json_decode($response);
+    echo "<br />";
+    $pay_url = $responsejson->payment_request->longurl;
+
+    session_start();
+	$_SESSION['start'] = true;
+    $_SESSION['pay_url'] = $pay_url;
+    
+    header('Location:' . $pay_url);
 
 
 } catch(Exception $e){

@@ -25,7 +25,7 @@
 	//$_SESSION['session_id'] = "201995d0-7f48-11e7-892f-0242e32748bc-56";
 
 	$_SESSION['SEO'] = SEO;
-
+    $pay_url = $_SESSION['pay_url'];
 
 
     include_once("common.php");
@@ -161,7 +161,13 @@ if($metadata === FALSE)
                         <div class="section-title">
                              
                             <h1 class="wow fadeInUp" data-wow-delay="0.6s"> <?=$page_title?> </h1>
-                            <p class="wow fadeInUp" data-wow-delay="0.9s"> <?=$page_content_text?>  </p>
+                            <p id="successStatus" class="wow fadeInUp" data-wow-delay="0.9s"> <?=$page_content_text?>  </p>
+                            <p id="failedStatus" class="wow fadeInUp" data-wow-delay="0.9s"> 
+                            
+                                Your payment was not successful. Do you want to try again?
+                                <a href="<?=$pay_url?>"  class="wow fadeInUp section-btn btn btn-success" data-wow-delay="1.4s">Try Again</a>
+                            </p>
+                            
 
                             <a href="/"  class="wow fadeInUp section-btn btn btn-success" data-wow-delay="1.4s">Go to Homepage</a>
 
@@ -196,7 +202,20 @@ if($metadata === FALSE)
     ?>
 
    
+<script>
+    (function() {
+        $("#failedStatus").hide();
+        var currentURL = window.location.href;
+        console.log('currentURL ', currentURL);
+        var res = currentURL.split("?");
+        if(res && res[1].split("&")[1] === "payment_status=Failed") {
+            $("#successStatus").hide();
+            $("#failedStatus").show();
+        }
 
+    })();
+
+</script>
 </body>
 
 </html>
