@@ -127,7 +127,9 @@
 
 	if(strpos($uri, "order-confirmation") !== false){
 		$uri = "/order-confirmation";
-	} 
+	} else if(strpos($uri, "prabhupada-in-south-india") !== false){
+		$uri = "/prabhupada-in-south-india";
+	}
 
 	/* This is local dev envirnment virtual host name */
 
