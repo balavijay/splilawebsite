@@ -55,7 +55,7 @@
     }
     array_push($darshanArray, $newdata );
 
-
+ 
 
 
 /////////////////////
@@ -367,8 +367,8 @@ if($metadata === FALSE)
                         $link = "https://maps.google.com/?q=$item->latitude,$item->longitude";
 
                         $imageIndex     = intval(substr($id,2));
-                        $imageIndex--;
-                        
+                        //$imageIndex--;
+
                         
 
             ?> 
@@ -436,8 +436,11 @@ if($metadata === FALSE)
                         </div>
                         <div class="modal-body">
                         <?php
-                            foreach($darshanArray[$imageIndex] as $img)
+                            $newImageIndex = 108 - $imageIndex;
+                            
+                            foreach($darshanArray[$newImageIndex] as $img)
                             {
+                                
                                 
                         ?>
                                 <img data-src="https://anvfnzuaen.cloudimg.io/cover/800x600/webp/<?=$img?>" width="100%" /> 
