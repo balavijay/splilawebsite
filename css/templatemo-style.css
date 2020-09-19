@@ -213,7 +213,7 @@ footer {
 .fontclass {
     font-size: 18px;
     font-weight: 300;
-    line-height: 1.8;
+    line-height: 1.4;
     letter-spacing: 0.2px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #333;
@@ -922,7 +922,7 @@ footer {
     font-size: 18px;
     font-weight: 300;
     font-family: 'Source Sans Pro', sans-serif;
-    line-height: 1.8;
+    line-height: 1.4;
     letter-spacing: 0.2px;
     color: #333;
 }
