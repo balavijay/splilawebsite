@@ -90,6 +90,7 @@
 	"events"					=>	"events.php",
 	"privacy-policy" 			=>  "privacy-policy/privacy.php",
 	"prabhupada-in-south-india" 		=>  "prabhupada-in-south-india.php",
+	"quiz"						=> "quiz/index.php",
 	
 
 	/* Routes for legacy site */
