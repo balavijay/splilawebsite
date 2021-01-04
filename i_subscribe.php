@@ -1,3 +1,10 @@
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+   function onSubmit(token) {
+        
+     // document.getElementById("subscribeForm").submit();
+   }
+ </script>
                     <div class="list-group custom-list-group ql-section" >									
 
                         <div class="card-body">
@@ -6,7 +13,7 @@
 
                             <p>Enter your mail address and subscribe to Srila Prabhupada Today Newsletter.</p>
 
-                            <form method="post" action="/mail_subscribe.php">
+                            <form method="post" id="subscribeForm" action="/mail_subscribe.php">
 
                                 <div class="form-group">
 
@@ -15,7 +22,10 @@
                                     <input type="email" class="form-control" name="email" value="" placeholder="Enter Your Email" required="">
                                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                                     <br />
-                                    <button type="submit" class="section-btn btn btn-success">Subscribe</button>
+                                    <button class="g-recaptcha" 
+                                        data-sitekey="6Lepqg4aAAAAANkOIZHi_GuchxmFjpdTvCK0-uTI" 
+                                        data-callback='onSubmit' 
+                                        data-action='submit'>Submit</button>
 
                                 </div>
 
