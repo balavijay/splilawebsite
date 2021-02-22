@@ -79,7 +79,7 @@ try{
                 array($instaKey, $instaAuth));
 
     $payload = Array(
-        'purpose' => 'Fund raiser for Book',
+        'purpose' => 'Pre-order for Book',
         'amount' => $amount,
         'phone' => $mobile,
         'buyer_name' => $name,

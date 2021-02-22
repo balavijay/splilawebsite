@@ -40,7 +40,7 @@
         </textarea>
         </div-->
 
-        <button type="submit" class="btn btn-default section-btn btn btn-success"  onclick="validateForm();" >Donate</button>
+        <button type="submit" class="btn btn-default section-btn btn btn-success"  onclick="validateForm();" >Pre-order</button>
     </form> 
 
 

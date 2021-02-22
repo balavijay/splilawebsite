@@ -174,16 +174,18 @@ if($metadata === FALSE)
                     Prabhupada in South India includes exclusive historical records, sweet recollections from dozens of Prabhupada disciples and never
                     before seen photos of Prabhupada.
                     <br /><br />
-
+                    <!--
                     Participate in this historic project. <br />
                     Preparing this book involved meeting Prabhupada disciples and recording their memoirs, transcribing, historical research, authoring,
                     and publishing. The expenses total Rs. 9,75,000/- ($13,000). <br /><br />
                     We need your help in meeting these expenses. <br /><br />
+                    -->
                     <a id="donate"></a>
-                    <b>Donate </b>: <br />
+                    <b>Per-order </b>: <br />
 
+                    <!--
                     Your donation will help in subsidising the cost of the book. <br />
-
+                    -->
 
                     <div  class="container">
                     <div class="row">
@@ -198,11 +200,12 @@ if($metadata === FALSE)
 
                     
                     <br /><br />
-
+                    <!--
                     <b>Special gift for your donation</b>: <br />
                     You will receive a special copy of the book autographed by Rajasekhara Prabhu shipped to your address.
                     <br /><br />
-
+                    -->
+                    
                     <b>Contact us</b>: <br />
                     Srila Prabhupada Foundation<br />
                     <a href="mailto:donate@srilaprabhupadalila.org " >donate@srilaprabhupadalila.org</a><br />
