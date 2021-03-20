@@ -133,7 +133,7 @@
 
                             Participate in this historic project. <br /><br />
 
-                            <a href="/prabhupada-in-south-india" class="btn btn-default section-btn btn btn-success"    >Per-order</a>
+                            <a href="/prabhupada-in-south-india" class="btn btn-default section-btn btn btn-success"    >Place Order</a>
                             <br />
                             </span>                            
 

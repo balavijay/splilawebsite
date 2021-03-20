@@ -40,7 +40,7 @@ function post($url, $postVars = array()){
     return $result;
 }
 
-$env = 'prod'; // test | prod
+$env = 'test'; // test | prod
 
 if ($env == 'test') {
 
@@ -79,7 +79,7 @@ try{
                 array($instaKey, $instaAuth));
 
     $payload = Array(
-        'purpose' => 'Pre-order for Book',
+        'purpose' => 'Order for Book',
         'amount' => $amount,
         'phone' => $mobile,
         'buyer_name' => $name,

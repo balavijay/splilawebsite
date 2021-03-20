@@ -19,8 +19,31 @@
         </div>
 
         <div class="form-group">
-        <label for="bookoption">Select:</label>
-        <select id='bookoption'> 
+        <label for="booktype">Type:</label>
+        <select id='booktype'> 
+            <option value='abridged'> Abridged version  </option>
+            <option value='unabridged'> Unabridged version </option>
+             
+        </select>
+
+        <div id="abridged" class="form-group">
+            <span class="price">₹300 </span> <br />
+            M.R.P.: ₹<span class="strike"> 400 </span> <br />
+            You save: ₹100.00 (25%)
+        </div>
+
+        <div id="unabridged" class="form-group">
+        <span class="price">₹900 </span> <br />
+            M.R.P.: ₹<span class="strike">1000 </span> <br />
+            You save: ₹100.00 (10%)
+        </div>
+         
+        </div>
+
+        <div class="form-group">
+        <label for="bookcount`">Select:</label>
+        <select id='bookcount'> 
+            <option value='1'> 1 Books </option>
             <option value='10'> 10 Books </option>
             <option value='20'> 20 Books </option>
             <option value='100'> 100 Books </option>
@@ -40,36 +63,47 @@
         </textarea>
         </div-->
 
-        <button type="submit" class="btn btn-default section-btn btn btn-success"  onclick="validateForm();" >Pre-order</button>
+        <button type="submit" class="btn btn-default section-btn btn btn-success"  onclick="validateForm();" >Place order</button>
     </form> 
 
 
     <script>
 
-    calculateTotal( 10 );
+    let type = 'abridged'; 
+    let perbook = 300;
+    $("#unabridged").hide();
+    calculateTotal( 1 );
 
-    $('#bookoption').on('change', function() {
+    $('#booktype').on('change', function() {
+
+        console.log( this.value );
+        if(this.value == 'abridged') {
+            perbook = 300;
+            $("#abridged").show();
+            $("#unabridged").hide();
+            
+        } else {
+            perbook = 900;
+            $("#abridged").hide();
+            $("#unabridged").show();
+        }
+
+        $("#bookcount").val($("#bookcount option:first").val());
+        calculateTotal(  1 );
+    
+    });
+
+    $('#bookcount').on('change', function() {
 
         calculateTotal( this.value );
-    
+
     });
 
  function calculateTotal(count){
     
-    // let currency = 75;
-
-    // await fetch("https://api.exchangeratesapi.io/latest?base=USD")
-    //         .then(async function(response) {
-    //             const res = await response.json();
-    //             currency = res.rates.INR.toFixed(0)
-    //         }).catch(function(error) {
-    //             currency = 75;
-    //         });
-
-    // currency = currency ? currency : 75;
-    let perbook = 400;
+    
     let totalcost = perbook * count;
-    $('#bookprice').html( '(INR ' + totalcost + '/-)');
+    $('#bookprice').html( '( ₹ ' + totalcost + '/-)');
     $('#txtAmount').val(totalcost);
     $('#txtQuantity').val(count);
 }
@@ -99,3 +133,12 @@ function donatePop(){
   window.open("https://www.instamojo.com/@SrilaPrabhupadaLila/");
 }
 </script>
+
+<style>
+.strike { text-decoration: line-through; }
+.price {
+    color: maroon !important;
+    font-size: 22px !important;
+    font-weight: 800 !important;
+}
+</style>

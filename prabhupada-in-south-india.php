@@ -181,7 +181,7 @@ if($metadata === FALSE)
                     We need your help in meeting these expenses. <br /><br />
                     -->
                     <a id="donate"></a>
-                    <b>Per-order </b>: <br />
+                    <b>Fill details to place order </b>: <br />
 
                     <!--
                     Your donation will help in subsidising the cost of the book. <br />
