@@ -27,9 +27,9 @@
         </select>
 
         <div id="abridged" class="form-group">
-            <span class="price">₹300 </span> <br />
+            <span class="price">₹350 </span> <br />
             M.R.P.: ₹<span class="strike"> 400 </span> <br />
-            You save: ₹100.00 (25%)
+            You save: ₹50.00 (12.5%) 
         </div>
 
         <div id="unabridged" class="form-group">
@@ -70,7 +70,7 @@
     <script>
 
     let type = 'abridged'; 
-    let perbook = 300;
+    let perbook = 350;
     $("#unabridged").hide();
     calculateTotal( 1 );
 
@@ -78,7 +78,7 @@
 
         console.log( this.value );
         if(this.value == 'abridged') {
-            perbook = 300;
+            perbook = 350;
             $("#abridged").show();
             $("#unabridged").hide();
             

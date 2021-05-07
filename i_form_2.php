@@ -40,7 +40,7 @@ function post($url, $postVars = array()){
     return $result;
 }
 
-$env = 'test'; // test | prod
+$env = 'prod'; // test | prod
 
 if ($env == 'test') {
 
