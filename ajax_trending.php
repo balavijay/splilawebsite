@@ -96,10 +96,7 @@ function send_cards()
 				{
 					
 					error_log("AJAX:$counter" . $item->card->title);
-					if(isset($item->card) && isset($item->card->content_type) && $item->card->content_type != "QUOTE" && 
-						$item->card->content_type != NULL && 
-						$item->card->title != "Initiation ceremony" && 
-						(is_numeric($item->card->content_id) != 1 || isset($item->card->Recent) ))
+					if(isset($item->card) && isset($item->card->content_type) )
 					{
 
 				
